@@ -1,4 +1,4 @@
-# A Tuple is a immunatable typr of a list ie it cannot change.
+# A Tuple is a immunatable type of a list i.e it cannot change.
 # To introduce a tuple we use paranthesis ()
 counties = ("Nairobi", "Mombasa", "Nakuru", "Eldoret", "Kajiado", "Kisii")
 print(counties)
