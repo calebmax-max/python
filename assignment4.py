@@ -25,7 +25,7 @@ def greet(name):
 # Calling the function with an argument
 greet("Alice")
 greet("Bob")
-Output:
+#Output:
 #Hello, Alice!
 #Hello, Bob!
 #Example (with multiple parameters):
@@ -183,7 +183,7 @@ my_function("Emil", "Refsnes")
 def my_function(fname, lname):
   print(fname + " " + lname)
 
-my_function("Emil")
+#my_function("Emil")
 #Default Parameter Values
 #You can assign default values to parameters. If the function is called without an argument, it uses the default value:
 
@@ -321,7 +321,7 @@ my_function(name = "Emil")
 def my_function(name, /):
   print("Hello", name)
 
-my_function(name = "Emil")
+#my_function(name = "Emil")
 #Keyword-Only Arguments
 #To specify that a function can have only keyword arguments, add *, before the arguments:
 
@@ -341,7 +341,7 @@ my_function("Emil")
 def my_function(*, name):
   print("Hello", name)
 
-my_function("Emil")
+#my_function("Emil")
 #Combining Positional-Only and Keyword-Only
 #You can combine both argument types in the same function.
 
@@ -1127,7 +1127,8 @@ def simple_gen():
 gen = simple_gen()
 print(next(gen))
 print(next(gen))
-print(next(gen)) # This will raise StopIteration
+#print(next(gen)) 
+# This will raise StopIteration
 
 #Generator Expressions
 #Similar to list comprehensions, you can create generators using generator expressions with parentheses instead of square brackets:
@@ -1218,3 +1219,7 @@ for color in colors:
     print(color)
 
 print("===========================")
+number = 20
+while number <= 100:
+  print(number)
+  number = number + 2
