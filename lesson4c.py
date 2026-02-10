@@ -31,6 +31,21 @@ for county in counties:
 
 
 print("=====================================")
+search = input("Enter county to search")
+
+found = False
+for county in counties:
+    if county == search:
+      found =  True
+      break
+
+    if found:
+         print(search, "is available")
+         break
+    else:
+      print(search,"is not available")
+      break
+print("=====================================")
 
 # The for loop can be used to iterate through a dictionary
 
