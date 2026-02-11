@@ -1,4 +1,4 @@
-# A for loo can also be used to iterate through a list, tuple or a dictionary
+# A for loop can also be used to iterate through a list, tuple or a dictionary
 name = "Caleb"
 
 for letter in name :
