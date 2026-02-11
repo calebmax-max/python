@@ -6,7 +6,7 @@ def area():
     print("The area is :", area)
 
 area()
-
+print("==============================")
 # 2.
 def numbers(num1,num2):
     sum = num1 + num2
@@ -16,35 +16,52 @@ def numbers(num1,num2):
     print("The sum is:", sum,"difference is: ", difference," product is:", product,"and division is:", division)
 
 numbers(200,20)
-
+print("==============================")
 # 3.
 
+def check_number():
 
-number = int(input("Enter a number: "))
+    number = int(input("Enter a number: "))
   
-if number > 0:
-    print("The number  is positive.")
-elif number < 0:
-    print("The number is negative.")
-else:
-    print("The number  is zero.")
+    if number > 0:
+        print("The number  is positive.")
+    elif number < 0:
+        print("The number is negative.")
+    else:
+        print("The number  is zero.")
+check_number()
 
-
+print("==============================")
 # 4.
-number = int(input("Enter number"))
+def sum_of_number(n):
+    sum = 0
+    for i in range(1,n+1):
+        sum += i
+    print("THe sum is: ", sum)
 
-for number in range(10):
-     print(number)
-     number += number
+n = int(input("Enter a number: "))
+sum_of_number(n)
 
+
+
+
+
+
+
+
+print("==============================")
 # 5.
-number = int(input("Enter number: "))
+def square_of_numbers(n):
+    i = 1
+while i <= n:
+    square=i**2
+    print("The square of ", square)
+    i+=1
+n= int(input("Enter a number"))
+square_of_numbers(n)
 
-while number > 1:
-    print(number)
-    number = number ** 2
 
-
+print("==============================")
 
 
 
